@@ -199,10 +199,7 @@ a{
     justify-content: center;
     gap: 5rem;
     align-items: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 1em;
+    background: rgb(78, 78, 78);
 }    
 .collaborateurs div{
     display: block;
@@ -210,13 +207,12 @@ a{
     font-size: 25px;
     box-shadow: 0;
     text-align: right;
+    padding: 3rem;
 }
 .collaborateurs .collaborateur{
     color: whitesmoke;
     font-size: 40px;
-    background: linear-gradient(rgba(0, 0, 0, 0.2));
-    box-shadow: 1px 1px 1px gray;
-    padding: 2rem;
     border-radius: 15px;
     text-align: center;
+
 }
