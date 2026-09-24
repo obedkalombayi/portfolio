@@ -28,26 +28,7 @@ header img:hover{
     height: 17em;
     width: 17rem;
 }
-/* nav{
-    padding: 2rem 0;
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-    padding-right: 2.5rem;
-    font-size: 1.2em;
-    margin-bottom: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5));
-    border-radius: 25px;
-    box-shadow: 1px 1px 2px rgb(165, 72, 250);
-}
-span a{
-    color: rgb(165, 72, 250);
-    text-decoration: none;
-}
-a:hover {
-    color: #fcf;
-    font-size: 1.3em;
-} */
+
 main .presentation{ 
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,13 +145,13 @@ h2{
 .formation1 .cours, .formation2 .cours, .formation3 .cours{
     padding: 0;
 }
-.centres{
+.partenaires{
     margin: 14rem 0 0 0;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
     align-items: center;
     background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75)),
     url(images/formation.jpg);
@@ -190,4 +171,16 @@ h2{
 }
 #orange{
     color: orange;
+}
+.collaborateurs{
+    display: flex;
+    gap: 16rem;
+}
+.collaborateurs div{
+    color: whitesmoke;
+    font-size: 40px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2));
+    box-shadow: 1px 1px 1px gray;
+    padding: 2rem;
+    border-radius: 15px;
 }
