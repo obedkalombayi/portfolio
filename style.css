@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    font-size: 1em;  
+    background: linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.80))
+    ,url("images/dev.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0, 0, 0, 0.5));
+    position: relative;
+    padding: 0.9rem;
+}
+header img{
+    padding: auto;
+    height: 15em;
+    width: 15rem;
+    border-radius: 50%;
+    background: #fff;
+}
+header img:hover{
+    height: 17em;
+    width: 17rem;
+}
+nav{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding-right: 2.5rem;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5));
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px rgb(165, 72, 250);
+}
+span a{
+    color: rgb(165, 72, 250);
+    text-decoration: none;
+}
+a:hover {
+    color: #fcf;
+    font-size: 1.3em;
+}
+main .presentation{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: lavender;
+    text-shadow: 1.5px 1.5px 2px blue;
+    font-family: 'Cinzel';
+    text-align: center;
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 8rem 4rem;
+    margin: 0;
+}
+main .realisations{
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)); 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+main .realisations h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    color: #ccc;
+    text-align: center;
+    text-shadow: 1px 1px 1px blue;
+}
+.realisations article{ 
+    background: linear-gradient(rgba(90, 12, 160, 0.932), rgba(0, 0, 130, 0.877)),
+    url("images/black_bg.png"); 
+    color: gray;
+    padding: 3rem 1rem;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1rem;
+    min-width: 300px;
+    max-width: 300px;
+    border-radius: 45% 50% 71% 10%/71% 14% 0% 10%;
+    position: relative;
+    margin-top: 4em;
+
+}
+.realisations :hover{
+    box-shadow: 4px 4px 15px rgb(220, 120, 232);
+    background: #fff;
+    color: rgb(165, 72, 250);
+}
+.realisations article :hover{
+    box-shadow: 0 0 0 #000;
+    color: rgb(165, 72, 250);
+}
+.realisations article h3{
+    font-weight: 800;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    border-radius: 50%; 
+    position: relative;
+    right: 0px;
+    margin-left: 1rem;
+}
+h2{
+    position: absolute;
+    right: 10rem;
+    color: blue;
+    font-size: 2.3em;
+}
+.formation1, .formation2, .formation3{
+    color: #ccc;
+    font-size: 2rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.formation1 article, .formation2 article, .formation3 article{
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    border: 1px dotted rgb(165, 72, 250);
+    
+}
+.→{
+    font-size: 3rem;
+}
+
+.domaine{
+    padding: 1rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50% 50% 50% 50%;
+    border: 5px dotted rgb(165, 72, 250);
+    text-align: center;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 0;
+}
+
+.arrow_v{
+    width: 2px;
+    height: 7rem;
+    border-right: white solid 3.5px;
+    margin: 5px auto 5px auto;
+}
+.formation2, .formation3{
+    margin-top: 0.1rem;
+}
+.formation1 .cours, .formation2 .cours, .formation3 .cours{
+    padding: 0;
+}
+.centres{
+    margin: 14rem 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75)),
+    url(images/formation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 13em;
+}
+.centre{
+    font-size: 3rem;
+}
+#isipa{
+    color: blue;
+}
+#voda{
+    color: red;
+}
+#orange{
+    color: orange;
+}
