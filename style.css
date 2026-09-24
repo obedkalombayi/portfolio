@@ -28,7 +28,28 @@ header img:hover{
     height: 17em;
     width: 17rem;
 }
+nav { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 2rem; 
+    position: sticky;  
+} 
 
+/* Style appliqué au lien ou au texte à l'intérieur */
+nav a span { 
+    background: rgba(137, 43, 226, 0.363); 
+    color: white; 
+    border-radius: 15px; 
+    text-align: center; 
+    font-size: 2.5em; 
+    padding: 5px 15px; 
+    display: inline-block;
+    cursor: pointer;
+}
+nav a {
+    text-decoration: none;
+}
 main .presentation{ 
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,26 +166,23 @@ h2{
 .formation1 .cours, .formation2 .cours, .formation3 .cours{
     padding: 0;
 }
-.partenaires{
-    margin: 14rem 0 0 0;
+
+.centres{
+    margin-top: 6rem;
     display: flex;
+    gap: 2rem;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
-    gap: 5rem;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75)),
-    url(images/formation.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 13em;
 }
 .centre{
     font-size: 3rem;
 }
+a{
+    text-decoration: none;
+}
 #isipa{
-    color: blue;
+    color: white;
 }
 #voda{
     color: red;
@@ -172,15 +190,33 @@ h2{
 #orange{
     color: orange;
 }
+
 .collaborateurs{
+    margin: 14rem 0 0 0;
     display: flex;
-    gap: 16rem;
-}
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+}    
 .collaborateurs div{
+    display: block;
+    color: blue;
+    font-size: 25px;
+    box-shadow: 0;
+    text-align: right;
+}
+.collaborateurs .collaborateur{
     color: whitesmoke;
     font-size: 40px;
     background: linear-gradient(rgba(0, 0, 0, 0.2));
     box-shadow: 1px 1px 1px gray;
     padding: 2rem;
     border-radius: 15px;
+    text-align: center;
 }
