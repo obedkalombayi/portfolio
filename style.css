@@ -28,7 +28,7 @@ header img:hover{
     height: 17em;
     width: 17rem;
 }
-nav{
+/* nav{
     padding: 2rem 0;
     display: flex;
     justify-content: flex-end;
@@ -47,7 +47,7 @@ span a{
 a:hover {
     color: #fcf;
     font-size: 1.3em;
-}
+} */
 main .presentation{ 
     background-repeat: no-repeat;
     background-size: cover;
